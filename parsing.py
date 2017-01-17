@@ -35,6 +35,5 @@ def parsing(page):
 
 if __name__ == '__main__':
     page = download('https://www.hse.ru/org/persons')
-
     for professor in parsing(page):
         print (professor.name, professor.phone)
