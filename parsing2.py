@@ -62,6 +62,7 @@ def teachers_with_xpath(parsed_page):
 
 
 
+
 if __name__ == '__main__':
     url = 'https://www.hse.ru/org/persons/'
 
